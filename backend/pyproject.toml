@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cupidgraph-backend"
+version = "0.1.0"
+description = "AI Coach backend for CupidGraph"
+authors = ["Aditya Maheshwari"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0"
+langgraph = "^0.0.10"
+langchain-anthropic = "^0.1.1"
+pydantic = "^2.6.0"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
